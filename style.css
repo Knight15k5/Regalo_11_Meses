@@ -1,0 +1,64 @@
+body {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(208,143,172);
+    background: radial-gradient(circle, rgba(208,143,172,1) 0%, rgba(152,148,233,1) 100%);
+
+  }
+
+  .titulo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .titulo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .titulo p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .poema-container {
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .poema-container p{
+    color: white;
+    margin-top: 200px;
+  }
+  
+  button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .containerf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerf h1{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.856);
+    margin-top: 200px;
+  }
